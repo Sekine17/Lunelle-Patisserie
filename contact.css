@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    user-select: none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    position: relative;
+    overflow: hidden;
+}
+
+header {
+    background-color: white;
+    color: black;
+    width: 100%;
+    position: relative;
+}
+
+.ilksehife {
+    background-color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 55px;
+    background-color: white;
+    padding: 0 20px;
+}
+
+.logo a {
+    text-decoration: none;
+    color: black;
+    background-color: transparent;
+    padding: 10px 20px;
+    font-family: "Playfair Display", serif;
+    letter-spacing: 3px;
+    font-size: 17px;
+}
+
+.logo a:hover {
+    background-color: #ccc;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    gap: 0;
+    font-family: "Playfair Display", serif;
+    letter-spacing: 3px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: black;
+    background-color: transparent;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+.menu ul li a:hover {
+    background-color: #ccc;
+}
+
+.metn{
+    font-family:"Playfair Display", serif ;
+}
+
+.esas{
+    margin-top: 80px;
+    margin-bottom: 80px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.contact{
+    font-size: 50px;
+    font-family: "Playfair Display", serif;
+    font-weight: 500;
+    text-align: left;
+    font-size: 40px;
+}
+
+.mekan{
+    color: rgb(84, 111, 111);
+    font-weight: 900;
+}
+
+.metn{
+    font-size: large;
+}
+
+input{
+    width: 100%;
+    gap: 30px;
+    border-style: none;
+    height: 50px;
+}
+
+::placeholder{
+    padding-left: 10px;
+    font-family: "Playfair Display", serif;
+    font-size: 15px;
+}
+
+.random{
+    padding-top: 20px;
+}
+
+#send{
+    width: 150px;
+    font-family: "Playfair Display", serif;
+    font-size: 20px;
+}
+
+#send:hover{
+    background-color: #ccc;
+}
+
+.vaxt{
+    padding-left: 10px;
+}

@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    user-select: none;
+}
+
+header {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url(home.jpg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 737px;
+    width: 100%;
+    position: relative;
+}
+
+.ilksehife{
+    background-color:white;
+    color: white;
+    margin-right: 0%;
+    margin-left: 0%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0%;
+    height: 55px;
+    background-color: white;
+}
+
+body {
+    position: relative; /* Lazımdır ki, .yazi elementi bura əsaslansın */
+}
+
+.yazi {      /* sabit yerdə qalsın deyə */
+    bottom: 0;              /* aşağıya sıfır məsafə */
+    left: 0;                /* sola sıfır məsafə */
+    padding: 20px 20px;     /* yazı ətrafı boşluq */
+    color: #4a3e2b;
+    font-family: "Playfair Display", serif;
+    letter-spacing: 5px;
+    font-weight: 50 ;
+    font-size: 36px;
+    position: absolute;
+}
+
+.yazi h1 {
+    font-family: "Playfair Display", serif;
+    font-size: 40px;
+    margin: 10px 0;
+    box-sizing: inherit;
+}
+
+.logo a {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    background-color: transparent;
+    padding: 10px 20px;
+    font-family:"Playfair Display";
+    letter-spacing: 3px;
+    font-size: 17px;
+    margin-left: 15px;
+}
+
+.logo a:hover {
+    background-color: #ccc;
+}
+
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 0px;
+    padding-right: 5px;
+    font-family:"Playfair Display";
+    letter-spacing: 3px;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: black;
+    background-color: transparent;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+.menu ul li a:hover{
+    background-color:#ccc  ;
+}
+
+
